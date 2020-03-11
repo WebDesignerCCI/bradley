@@ -1,0 +1,328 @@
+html {
+    min-width: 100vw;    
+    font-family: 'Marck Script', cursive;
+    font-family: 'Play', sans-serif;
+    background-color: #454851;
+    background: linear-gradient(90deg, rgba(31,32,65,1) 0%, rgba(69,72,81,1) 100%);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-width: 100vw;
+    margin: 0;
+    
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: -30px;
+    z-index: 8;
+}
+
+.menu_arrow {
+    margin: auto;
+    z-index: 8;
+    
+}
+
+.arrow {
+    max-height: 10px;
+    
+}
+
+.click_event {
+    animation: slide_menu 500ms linear 100ms forwards ;
+}
+
+header {
+    min-width: 100vw;
+    padding-top: 4.5vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1em;
+    position: sticky;
+    top: 0px;
+    bottom: 700px;
+    z-index: 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #454851;
+    background: linear-gradient(90deg, rgba(31,32,65,0.9) 0%, rgba(69,72,81,0.9) 100%);
+    
+}
+
+.nash_logo {
+    display: flex;
+    height: 10vh;
+    font-family: 'Marck Script', cursive;
+    font-size: 2.7em;
+    padding-bottom: 1vh;
+   
+}
+
+.nash_logo_img {
+    margin-top: 2vh;
+    max-height: 60%;
+}
+
+.logo_link {
+    color: rgb(70, 170, 0);
+    width: 100%;
+}
+
+
+
+nav {
+    justify-content: space-around;
+    display: flex;
+    width: 100vw;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    padding: unset;
+    margin-bottom: unset;
+    margin-top: 1vh;
+}
+
+.wave_item {
+    
+    padding-bottom: 0.5vh;
+    margin: auto;
+    
+}
+
+.wave_link {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.wave_link:hover {
+    animation: link_underline 200ms forwards
+}
+
+.underline {
+    height: 0.4vh;
+    width: 40vw;
+    background-color: rgb(70, 170, 0);
+    animation: underline 3s linear 200ms infinite;
+}
+
+.intro {
+    min-width: 100vw;
+    top: 16vh;
+    position: sticky;
+}
+
+.redirection {
+    color: rgb(70, 170, 0);
+    font-weight: bold;
+}
+
+.social {
+    position: sticky;
+    padding-top: 2vh;
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    font-size: 0.9em;
+    border-radius: 15px;
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    z-index: 6;
+    top: 0;
+    
+}
+
+
+main {
+    min-height: 84.5vh;
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    border-radius: 15px;
+    position: sticky;
+    top: 15.5vh;
+    padding-bottom: 8vh;
+    margin-top: 1vh;
+    
+}
+
+.title {
+    color: rgb(70, 170, 0);
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    font-family: 'Marck Script', cursive;
+    padding-bottom: 0.5em;
+    left: 99.99%;
+    animation: slide_in2 600ms linear 500ms forwards;
+    
+}
+
+h2 {
+    margin-top: unset;
+    margin-bottom: unset;
+    color: rgb(70, 170, 0);
+    padding-top: 2vh;
+}
+
+.side_div {
+    text-align: justify;
+    font-size: 0.8em ;
+    position: relative;
+    right: 99.99%;
+    animation: slide_in 600ms linear 500ms forwards;
+}
+
+.img_div {
+    width: 100vw;
+}
+
+
+.side_img {
+    max-width: 30vw;
+    padding: 0 2vw 0 2vw;
+    margin: auto;
+}
+
+p {
+    padding: 1vh 2vw 1vh 2vw;
+    text-align: justify;
+    color: whitesmoke;
+    margin: unset;
+    font-size: 1.2em;
+}
+
+
+.uper_page {
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    text-align: center;
+    font-size: 0.9em;
+    min-height: 100vh;
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    position: sticky;
+    top: 0vh;
+    padding-bottom:15vh;
+    padding-top: 6vh;
+    border-radius: 15px;
+    z-index: 1
+}
+
+.uper_page2 {
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    text-align: center;
+    font-size: 0.9em;
+    min-height: 100vh;
+    position: sticky;
+    top: 0vh;
+    padding-bottom:15vh;
+    padding-top: 6vh;
+    border-radius: 15px;
+    z-index: 2;
+
+}
+
+.uper_page3 {
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    text-align: center;
+    font-size: 0.9em;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    padding-bottom:15vh;
+    padding-top: 6vh;
+    border-radius: 15px;
+    z-index: 3;
+
+}
+
+.uper_page4 {
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    text-align: center;
+    font-size: 0.9em;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    padding-bottom:15vh;
+    padding-top: 6vh;
+    border-radius: 15px;
+    z-index: 4;
+
+}
+
+.uper_page5 {
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    text-align: center;
+    font-size: 0.9em;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    padding-bottom: unset;
+    padding-top: 6vh;
+    border-radius: 15px;
+    z-index: 5;
+}
+
+footer {
+    background-color: rgba(31,32,65,0.9);
+    
+    color: rgb(70, 170, 0);
+    position: sticky;
+    top: 0;
+    border-radius: 15px;
+    z-index: 7;
+}
+
+@keyframes slide_in {
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes slide_in2 {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide_menu {
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes underline {
+    0% {
+        width: 90vw;
+    }
+    50% {
+        width: 45vw;
+    }
+    100% {
+        width: 90vw;
+    }
+}
+
+
+
