@@ -1,0 +1,187 @@
+html {
+    min-width: 100vw;    
+    font-family: 'Marck Script', cursive;
+    font-family: 'Play', sans-serif;
+    background-color: #454851;
+    background: linear-gradient(90deg, rgba(31,32,65,1) 0%, rgba(69,72,81,1) 100%);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 100vw;
+    margin: 0;
+    
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: -30px;
+    z-index: 8;
+}
+
+.menu_arrow {
+    margin: auto;
+    z-index: 8;
+    
+}
+
+.arrow {
+    max-height: 10px;
+    
+}
+
+.click_event {
+    animation: slide_menu 500ms linear 100ms forwards ;
+}
+
+header {
+    max-width: 100vw;
+    padding-top: 4.5vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 0.9em;
+    position: sticky;
+    top: 0px;
+    bottom: 700px;
+    z-index: 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #454851;
+    background: linear-gradient(90deg, rgba(31,32,65,0.9) 0%, rgba(69,72,81,0.9) 100%);
+    
+}
+
+.nash_logo {
+    display: flex;
+    height: 10vh;
+    font-family: 'Marck Script', cursive;
+    font-size: 2.7em;
+    padding-bottom: 1vh;
+   
+}
+
+.nash_logo_img {
+    margin-top: 2vh;
+    max-height: 60%;
+}
+
+.logo_link {
+    color: rgb(70, 170, 0);
+    width: 100%;
+}
+
+
+
+nav {
+    justify-content: space-around;
+    display: flex;
+    width: 100vw;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    padding: unset;
+    margin-bottom: unset;
+    margin-top: 1vh;
+}
+
+.wave_item {
+    
+    padding-bottom: 0.5vh;
+    margin: auto;
+    
+}
+
+.wave_link {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.wave_link:hover {
+    animation: link_underline 200ms forwards
+}
+
+.underline {
+    height: 0.4vh;
+    width: 40vw;
+    background-color: rgb(70, 170, 0);
+    animation: underline 3s linear 200ms infinite;
+}
+
+main {
+    max-width: 100vw;
+    min-height: 84.5vh;
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    border-radius: 15px;
+    position: sticky;
+    top: 15.5vh;
+    padding-bottom: 8vh;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_container {
+    width: 100vw;
+    padding-left: auto;
+   
+}
+
+.icon {
+    float: inline-start;
+    height: 90px;
+    width: 90px;
+    border: 0.2vw whitesmoke solid;
+    
+    margin: auto;
+}
+
+p {
+    margin-top: unset;
+}
+
+@keyframes slide_in {
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes slide_in2 {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide_menu {
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes underline {
+    0% {
+        width: 90vw;
+    }
+    50% {
+        width: 45vw;
+    }
+    100% {
+        width: 90vw;
+    }
+}

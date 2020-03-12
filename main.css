@@ -130,22 +130,6 @@ ul {
     font-weight: bold;
 }
 
-.social {
-    position: sticky;
-    padding-top: 2vh;
-    background-color: #454851;
-    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
-    font-size: 0.9em;
-    border-radius: 15px;
-    border-top: 0.3vh rgb(70, 170, 0) solid;
-    text-align: center;
-    font-family: 'Marck Script', cursive;
-    z-index: 6;
-    top: 0;
-    
-}
-
-
 main {
     min-height: 84.5vh;
     border-top: 0.3vh rgb(70, 170, 0) solid;
@@ -187,18 +171,22 @@ h2 {
 }
 
 .img_div {
+    display: flex;
     width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 150px;    
 }
 
 
 .side_img {
-    max-width: 30vw;
-    padding: 0 2vw 0 2vw;
-    margin: auto;
+    max-width: 140px;
+    
+    
 }
 
 p {
-    padding: 1vh 2vw 1vh 2vw;
+    padding: 1vh 2vw 0vh 2vw;
     text-align: justify;
     color: whitesmoke;
     margin: unset;
@@ -219,6 +207,10 @@ p {
     padding-top: 6vh;
     border-radius: 15px;
     z-index: 1
+}
+
+.icon_link {
+    color: rgb(70, 170, 0);
 }
 
 .uper_page2 {
@@ -284,9 +276,25 @@ p {
     z-index: 5;
 }
 
+.social {
+    position: sticky;
+    padding-top: 2vh;
+    margin-bottom: 3vh;
+    background-color: #454851;
+    background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
+    font-size: 0.9em;
+    border-radius: 15px;
+    border-top: 0.3vh rgb(70, 170, 0) solid;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    z-index: 6;
+    top: 10;
+    
+}
+
 footer {
     background-color: rgba(31,32,65,0.9);
-    
+    padding-bottom: unset;
     color: rgb(70, 170, 0);
     position: sticky;
     top: 0;
