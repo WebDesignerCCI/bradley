@@ -55,3 +55,14 @@ document.getElementById("arrow").onclick = function() {
     console.log('ça fonctionne');
     document.getElementById("burger").classList.toggle("click_event");
 }
+
+var icon_container = document.getElementsByClassName("icon_container");
+
+$(document).ready(function() {
+
+$("#container").each(function ( index ) {
+    $(this).addClass ( "icon_container" + index);
+});
+
+
+});

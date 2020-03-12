@@ -175,18 +175,18 @@ h2 {
     width: 100vw;
     align-items: center;
     justify-content: center;
-    height: 150px;    
+    height: 18vh;    
 }
 
 
 .side_img {
-    max-width: 140px;
+    max-width: 20vh;
     
     
 }
 
 p {
-    padding: 1vh 2vw 0vh 2vw;
+    padding: 0.8vh 2vw 1.5vh 2vw;
     text-align: justify;
     color: whitesmoke;
     margin: unset;
@@ -288,7 +288,7 @@ p {
     text-align: center;
     font-family: 'Marck Script', cursive;
     z-index: 6;
-    top: 10;
+    top: 0;
     
 }
 

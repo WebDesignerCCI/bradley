@@ -132,28 +132,43 @@ main {
     margin-top: 1vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
 }
 
-.icon_container {
+#container {
     width: 100vw;
-    padding-left: auto;
+    padding-top: 2vh;
+    border-radius: 15px;
+    
    
 }
 
-.icon {
-    float: inline-start;
+.icon_container0 {
+    border-bottom: none;
+}
+
+.icon1 {
+    
+    height: 100px;
+    width: 200px;
+    padding-right: 2vh;
+   
+}
+
+.icon2 {
+    
     height: 90px;
     width: 90px;
-    border: 0.2vw whitesmoke solid;
-    
-    margin: auto;
+   
 }
 
 p {
-    margin-top: unset;
+    margin-top: 2vh;
+    color: whitesmoke;
+    size: 1em;
+    text-align: center;
 }
 
 @keyframes slide_in {
