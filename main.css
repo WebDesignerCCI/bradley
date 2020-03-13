@@ -14,6 +14,8 @@ a {
 body {
     min-width: 100vw;
     margin: 0;
+    top:0;
+    min-height: 100vh;
     
 }
 
@@ -22,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     top: -30px;
-    z-index: 8;
+    z-index: 9;
 }
 
 .menu_arrow {
@@ -140,6 +142,7 @@ main {
     top: 15.5vh;
     padding-bottom: 8vh;
     margin-top: 1vh;
+    z-index: 1;
     
 }
 
@@ -206,7 +209,7 @@ p {
     padding-bottom:15vh;
     padding-top: 6vh;
     border-radius: 15px;
-    z-index: 1
+    z-index: 2;
 }
 
 .icon_link {
@@ -225,8 +228,11 @@ p {
     padding-bottom:15vh;
     padding-top: 6vh;
     border-radius: 15px;
-    z-index: 2;
+    z-index: 3;
+}
 
+.skill_logo {
+    margin-top: 3vh;
 }
 
 .uper_page3 {
@@ -241,8 +247,28 @@ p {
     padding-bottom:15vh;
     padding-top: 6vh;
     border-radius: 15px;
-    z-index: 3;
+    z-index: 4;
+}
 
+#arrow {
+    height: 9vh;
+}
+
+.back_arrow {
+    margin: auto;
+    animation: arrow 600ms  infinite;
+  
+}
+
+#cci {
+    height: 93.59px;
+    
+}
+
+.cci {
+     
+   width: 100vw;
+   
 }
 
 .uper_page4 {
@@ -257,7 +283,7 @@ p {
     padding-bottom:15vh;
     padding-top: 6vh;
     border-radius: 15px;
-    z-index: 4;
+    z-index: 5;
 
 }
 
@@ -273,26 +299,30 @@ p {
     padding-bottom: unset;
     padding-top: 6vh;
     border-radius: 15px;
-    z-index: 5;
+    z-index: 6;
 }
 
 .social {
-    position: sticky;
-    padding-top: 2vh;
-    margin-bottom: 3vh;
     background-color: #454851;
     background: linear-gradient(180deg, rgba(31,32,65,0.9) 0%, rgba(69, 105, 212, 0.9) 100%);
-    font-size: 0.9em;
-    border-radius: 15px;
     border-top: 0.3vh rgb(70, 170, 0) solid;
     text-align: center;
-    font-family: 'Marck Script', cursive;
-    z-index: 6;
+    font-size: 0.9em;
+    min-height: 25vh;
+    position: sticky;
     top: 0;
+    padding-bottom:unset;
+    padding-top: 6vh;
+    border-radius: 15px;
+    z-index: 7;
     
 }
 
-footer {
+.social_img {
+    height: 50px;
+}
+
+/* footer {
     background-color: rgba(31,32,65,0.9);
     padding-bottom: unset;
     color: rgb(70, 170, 0);
@@ -300,7 +330,7 @@ footer {
     top: 0;
     border-radius: 15px;
     z-index: 7;
-}
+} */
 
 @keyframes slide_in {
     100% {
@@ -329,6 +359,21 @@ footer {
     }
     100% {
         width: 90vw;
+    }
+}
+
+@keyframes arrow {
+    25% {
+        padding-top: 5px;
+    }
+    50% {
+        padding-top: 10px;
+    }
+    75% {
+        padding-top: 5px;
+    }
+    100% {
+        padding-top: unset;
     }
 }
 
